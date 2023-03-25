@@ -5,7 +5,7 @@ new Promise(async (resolve, reject) => {
   try {
     response = await axios.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/historical', {
       headers: {
-        'X-CMC_PRO_API_KEY': 'ae4891ed-276a-46a2-8db8-29ee2575fabc',
+        'X-CMC_PRO_API_KEY': '0beb6987-0c7f-4d29-8b2e-c13b2e2b316d',
       },
     });
   } catch(ex) {
