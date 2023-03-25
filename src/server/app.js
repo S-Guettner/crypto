@@ -3,9 +3,9 @@ import axios from 'axios'
 let response = null;
 new Promise(async (resolve, reject) => {
   try {
-    response = await axios.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/historical', {
+    response = await axios.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest/', {
       headers: {
-        'X-CMC_PRO_API_KEY': '0beb6987-0c7f-4d29-8b2e-c13b2e2b316d',
+        'X-CMC_PRO_API_KEY': 'c4f8a93d-90ff-49b1-8215-82c5988538f8',
       },
     });
   } catch(ex) {
